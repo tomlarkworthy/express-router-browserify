@@ -1,0 +1,14 @@
+{
+  "name": "express-router-browserfy",
+  "version": "1.0.0",
+  "description": "Brwserfy the express router for use in browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "router": "^1.3.5"
+  }
+}
