@@ -1,13 +1,14 @@
 {
-  "name": "express-router-browserfy",
+  "name": "express-router-browserify",
   "version": "1.0.0",
-  "description": "Brwserfy the express router for use in browsers",
-  "main": "index.js",
+  "description": "Browserify the express router for use in browsers",
+  "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Tom Larkworthy",
   "license": "ISC",
+  "homepage": "https://github.com/tomlarkworthy/express-router-browserify",
   "dependencies": {
     "router": "^1.3.5"
   }
