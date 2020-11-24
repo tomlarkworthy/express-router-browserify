@@ -1,6 +1,7 @@
-// Expose the Router constructor
-module.exports = require('router');
+'use strict';
 
-// Expose request and response
+module.exports = require('router');
 module.exports.Request = require('./request');
 module.exports.Response = require('./response');
+
+global.router = module.exports
