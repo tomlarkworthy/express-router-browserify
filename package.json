@@ -1,9 +1,10 @@
 {
   "name": "express-router-browserify",
-  "version": "2.0.17",
+  "version": "3.0.1",
   "description": "Browserify the express router for use in browsers",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
+    "//": "Note sure this works properly when run in npm",
     "bundle": "browserify -s erb index.js -o bundle.js"
   },
   "author": "Tom Larkworthy",
